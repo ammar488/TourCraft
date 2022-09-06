@@ -1,0 +1,26 @@
+.featured{
+    flex: 2;
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap:3rem; 
+}
+
+.imagee {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    cursor:pointer;
+    height: 11rem;
+}
+
+.imagee:hover{
+    transition: 3s all ease-out;
+    rotate: 2rem;
+}
+.featureTitle{
+    position: absolute;
+    bottom: 20px;
+    color: rgb(255, 255, 255);
+}

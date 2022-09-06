@@ -1,0 +1,213 @@
+.header {  
+    background-image: url("https://www.arabianbusiness.com/cloud/2021/09/15/QRW0solz-Paramount-Hotel-Dubai-1.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    animation: change 30s infinite ease-in-out ;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 22rem;
+  }
+
+  .headerTitle {
+    
+    color: rgb(7, 223, 223);
+    margin-top: 7rem;
+  }
+  
+  @keyframes change {
+    40%
+    {
+      background-image: url("https://badianhotel.com/wp-content/uploads/2020/08/baglioni-hotel-london.jpg");
+    }
+  
+    10%
+    {
+      background-image: url("https://www.arabianbusiness.com/cloud/2021/09/15/QRW0solz-Paramount-Hotel-Dubai-1.jpg");
+    }
+  
+    50%
+    {
+      background-image: url("https://media.radissonhotels.net/image/radisson-blu-resort-fiji-denarau-island/poolview/16256-113998-f63754927_3xl.jpg?impolicy=HomeHero");
+    }
+    
+  }
+  .headerBtn {
+    background-color: #2a0372;
+    color: white;
+    font-size: 0.8rem;
+    border: none;
+    padding: 0.5rem 0rem;
+    cursor: pointer;
+    border: 2px solid rgb(142, 143, 241);
+    margin-left: 1rem;
+    width: 4.5rem;
+    height: auto;
+  
+  }
+
+  .headerBtn:hover{
+    background-color: rgb(233, 220, 204);
+    color:rgb(27, 5, 5) ;
+    font-size: 1rem;
+  }
+
+  .headerSearch {
+    height: 3.7rem;
+    background-color: white;
+    border: 4px solid #dda41e;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0px;
+    border-radius: 5px;
+    position: relative;
+    font-size: small;
+    margin-top: 5%;
+  }
+  
+  .headerIcon {
+    color: rgb(17, 12, 12);
+  }
+  
+  .headerSearchItem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: black;
+
+  }
+  
+  .headerSearchInput {
+    border: none;
+    outline: none;
+  }
+  
+  .headerSearchText {
+    color: black;
+    cursor: pointer;
+  }
+  
+  .date {
+    position: absolute;
+    top: 40px;
+    z-index: 2;
+  margin-left: -6rem;
+    
+  }
+  
+  .options {
+    z-index: 2;
+    position: absolute;
+    top: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  }
+  
+  .optionItem {
+    width: 8rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+  }
+  
+  .optionCounter {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.7rem;
+    color: black;
+  }
+  
+  .optionCounterButton {
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid #021f33;
+    color: #041f33;
+    cursor: pointer;
+    background-color: white;
+  }
+  
+  .optionCounterButton:disabled {
+    cursor: not-allowed;
+  }
+
+  
+  .headerSearchItem .rdrCalendarWrapper.rdrDateRangeWrapper{
+    width: 250px;
+    font-size: x-small
+  }
+  
+  .headerSearchItem .rdrMonthAndYearWrapper
+{
+  width: 250px;
+  font-size: x-small;
+}
+
+.headerSearchItem .rdrNextPrevButton.rdrPprevButton
+{
+  width: 20px;
+    font-size: x-small;
+    margin-right: -15px;
+}
+.headerSearchItem .rdrMonths.rdrMonthsVertical
+{
+  width:250px;
+  font-size: x-small;
+}
+
+.headerSearchItem .rdrMonth{
+  width: 250px;
+    font-size: x-small;
+}
+  
+  @media screen and (max-width: 500px){
+    .headerSearch{
+      width: 400px !important;
+      font-size: 8px;
+      margin-bottom: 3rem;
+      
+    }
+    .headerBtn{
+      width: 3rem;
+      font-size: 8px;
+    }
+  } 
+
+  @media screen and (max-width: 420px){
+    .headerSearch{
+      width: 310px !important;
+      font-size: 5px;
+      margin-bottom: 6rem;
+      
+    }
+    .headerBtn{
+      width: 1.8rem;
+      font-size: 5px;
+    }
+  } 
+
+  @media screen and (max-width: 320px){
+    .headerSearch{
+      width: 250px !important;
+      font-size: 4px;
+      margin-bottom: 15rem;
+      
+    }
+    .headerBtn{
+      width: 1.5rem;
+      font-size: 4px;
+    }
+    .optionCounterButton{
+margin-left: -4rem;
+    }
+  } 
+
