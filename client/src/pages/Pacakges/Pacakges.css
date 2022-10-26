@@ -1,0 +1,207 @@
+.pictures {  
+    background-image: url("https://image3.mouthshut.com/images/imagesp/925736360s.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    animation: change 30s infinite ease-in-out ;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    max-width: 1024;
+    height: 12rem;
+    
+  }
+  
+  @keyframes change {
+    40%
+    {
+      background-image: url("https://www.greeentours.com/Content/themes/Ecommerce/Tourism/MainSlider/7DRM/7GJY7EI0.png");
+    }
+  
+    50%
+    {
+      background-image: url("https://www.greeentours.com/Content/themes/Ecommerce/Tourism/MainSlider/7DRM/7GJY7EI0.png");
+    }
+  
+    30%
+    {
+      background-image: url("https://media.radissonhotels.net/image/radisson-blu-resort-fiji-denarau-island/poolview/16256-113998-f63754927_3xl.jpg?impolicy=HomeHero");
+    }
+
+    80%
+    {
+      background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/66/Gurdwara_Darbar_Sahib_Kartarpur_04.jpg");
+    }
+   
+  }
+
+  .background{
+    /* background-image: url("https://img.freepik.com/free-vector/time-travel-vector-flyer-with-white-copy-space-sky-with-airplane_134830-1061.jpg?w=2000"); */
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 1rem;
+  
+  }
+  .backheading
+{
+  text-align: center;
+}
+  .packages{    
+    
+    text-align: center;
+    padding: 10px;
+  }
+  
+
+  .listContainer {
+    display: flex;
+    justify-content: center;
+   
+    
+  }
+  
+  .listWrapper {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    
+    
+  }
+  
+  .listSearch {
+   
+    background-color: #febb02;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+   
+    height: max-content;
+   
+
+  }
+  
+  .lsTitle{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .lsItem{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .lsItem>label{
+    font-size: 1.2rem;
+    color: rgb(3, 3, 2);
+  }
+
+  .lsItem .rdrCalendarWrapper.rdrDateRangeWrapper{
+    width: 200px;
+    font-size: x-small
+  }
+  
+  .lsItem .rdrMonthAndYearWrapper
+{
+  width: 200px;
+  font-size: xx-small;
+}
+
+.lsItem .rdrNextPrevButton.rdrPprevButton
+{
+  width: 20px;
+    font-size: xx-small;
+    margin-right: -15px;
+}
+.lsItem .rdrMonths.rdrMonthsVertical
+{
+  width:200px;
+  font-size: x-small;
+}
+
+.lsItem .rdrMonth{
+  width: 200px;
+    font-size: x-small;
+}
+
+  .lsItem>input{
+    height: 1.3rem;
+    border: none;
+    padding: 3px;
+  }
+  .lsItem>span{
+    height: 3rem;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: max-content;
+    font-size: small;
+  }
+  .lsOptions{
+    padding: 10px;
+  }
+  .lsOptionItem{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+    color: #555;
+    font-size: small;
+  }
+  .lsOptionInput{
+    width: 50px;
+    height: max-content;
+  }
+  .listSearch>button{
+    padding: 5px;
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    width: 80%;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  
+
+
+  @media screen and (max-width: 780px){
+    .listSearch {
+      width: 150px !important; 
+    }
+    
+  }
+  
+  
+  @media screen and (max-width: 767px){
+    .listSearch {
+      width: 350px !important; 
+      margin: auto;
+    }
+    
+  }
+
+  @media screen and (max-width: 480px){
+    .listSearch {
+      width: 300px !important; 
+      margin:auto;
+    }
+    
+  }
+ 
+ 
+  
